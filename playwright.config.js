@@ -15,8 +15,8 @@ module.exports = defineConfig({
     },
   }
 });
-const REPO = 'test-repo-1';
-const USER = 'github-username';
+const REPO = 'PWTest';
+const USER = 'Hemanth902';
 
 test('should create a bug report', async ({ request }) => {
   const newIssue = await request.post(`/repos/${USER}/${REPO}/issues`, {
